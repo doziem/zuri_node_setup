@@ -35,9 +35,7 @@ const PORT = 3000;
         res.end(JSON.stringify({ cpuData, osData }));
       }, Math.floor(Math.random() * 5000));
     } 
-
-    // res.writeHead(200, { 'Content-Type': 'application/json' });
-    // res.end(JSON.stringify(os));
+    
   });
 
   
